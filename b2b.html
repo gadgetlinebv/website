@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B Sourcing &amp; Procurement | GadgetLine B.V.</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: { brand: { blue: '#3b82f6', navy: '#0a0f1d', slate: '#f8fafc' } }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-slate text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between">
+
+    <div class="bg-brand-navy text-slate-400 text-[11px] font-semibold py-3 px-4 text-center border-b border-slate-900 tracking-wider uppercase">
+        <span>B2B Supply Chain Hub &bull; Sourcing, OEM/ODM Productie &amp; Import Regulering</span>
+    </div>
+
+    <header class="sticky top-0 z-50 bg-white/75 backdrop-blur-xl border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex flex-col justify-between py-3">
+            <div class="flex justify-center items-center w-full">
+                <a href="index.html" class="flex flex-col items-center gap-0.5">
+                    <img src="logo.png" alt="GadgetLine Logo" class="h-10 w-auto object-contain">
+                    <span class="text-xl font-800 tracking-tight text-brand-navy block">GadgetLine</span>
+                </a>
+            </div>
+            <nav class="flex justify-center items-center gap-10 text-[11px] font-700 uppercase tracking-widest text-slate-500">
+                <a href="index.html" class="hover:text-brand-blue transition-colors pb-1">Home</a>
+                <a href="b2c.html" class="hover:text-brand-blue transition-colors pb-1">B2C Merken</a>
+                <a href="b2b.html" class="text-brand-blue border-b-2 border-brand-blue pb-1">B2B Sourcing</a>
+                <a href="index.html#contact" class="hover:text-brand-blue transition-colors pb-1">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-xs font-700 uppercase tracking-widest text-brand-blue">Wholesale &amp; Consulting</span>
+                    <h1 class="text-3xl sm:text-4xl font-800 text-brand-navy tracking-tight">Global Sourcing &amp; Import Compliance</h1>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Als internationale handelsintermediair verzorgt GadgetLine B.V. de volledige in-, uit- en doorvoer (Art. 2.a) van hoogwaardige componenten en eindproducten. Wij bemiddelen bij de fabriekskoppeling, bewaken OEM/ODM specificaties aan de bron, en sturen op risicominimalisatie.
+                    </p>
+                    <div class="p-5 bg-brand-slate rounded-xl border border-slate-200 flex items-start gap-4">
+                        <div class="text-brand-blue mt-1"><i data-lucide="shield-check" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-700 text-sm text-brand-navy">Productveiligheid (GPSR) &amp; CE-Validatie</h4>
+                            <p class="text-xs text-slate-500 mt-1">Elk product dat via onze advisering de Europese markt betreedt, ondergaat een pre-market compliance check. Wij controleren technische constructiedossiers, conformiteitsverklaringen en traceerbaarheidseisen conform Verordening (EU) 2023/988.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Global Procurement" class="rounded-2xl border border-slate-200 shadow-lg w-full h-64 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-navy text-slate-500 py-12 text-xs mt-auto">
+        <div class="max-w-7xl mx-auto px-6 text-center md:flex md:justify-between items-center text-slate-400">
+            <p>&copy; 2026 GadgetLine B.V. &bull; Statutair Maastricht</p>
+            <div class="flex justify-center gap-6 mt-4 md:mt-0">
+                <a href="privacy.html" class="hover:text-white underline">Privacy</a>
+                <a href="voorwaarden.html" class="hover:text-white underline">Voorwaarden</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>

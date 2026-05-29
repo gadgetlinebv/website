@@ -1,219 +1,161 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadgetLine B.V. | Trading, Sourcing &amp; EU Compliance</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            blue: '#2563eb',
+                            navy: '#0f172a',
+                            slate: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .fluid-card { transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
+        .fluid-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.06); }
+    </style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="nl" class="scroll-smooth"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;GadgetLine B.V. | Trading, Sourcing &amp;amp; EU Compliance&lt;/title&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Favicon link --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="icon" type="image/png" href="favicon.png"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Premium 2026 Typography: Plus Jakarta Sans --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tailwind CSS --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Lucide Icons --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/lucide@latest"&gt;&lt;/script&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>fontFamily: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>sans: ['Plus Jakarta Sans', 'sans-serif'],</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>brand: {</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>blue: '#2563eb', <span class="Apple-converted-space">  </span>/* Electric Tech Blue */</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>navy: '#0f172a', <span class="Apple-converted-space">  </span>/* Deep Space Corporate Navy */</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>slate: '#f8fafc' <span class="Apple-converted-space">  </span>/* Crisp Metallic Ice Background */</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>/* Smooth micro-interactions for a fluid 2026 vibe */</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.fluid-card {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.fluid-card:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-4px) scale(1.01);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.08);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="bg-brand-slate text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- COMPLIANCE BANNER --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-brand-navy text-slate-300 text-[11px] font-medium py-2.5 px-4 text-center border-b border-slate-800 tracking-wide"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="inline-flex items-center gap-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;strong&gt;EU Handelsrichtlijnen:&lt;/strong&gt; Volledig operationeel conform Verordening (EU) 2023/988 (GPSR)</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- FLOATING GLASSMORPHIC HEADER --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200/60 transition-all duration-300"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="index.html" class="flex items-center gap-3 group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;img src="logo.png" alt="GadgetLine Logo" class="h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col hidden sm:flex"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-xl font-800 tracking-tight text-brand-navy leading-none"&gt;GadgetLine&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[9px] text-brand-blue font-700 uppercase tracking-widest mt-1.5"&gt;Global Trade &amp;amp; Consulting B.V.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav class="hidden md:flex items-center gap-8 text-sm font-600 text-slate-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#trading" class="hover:text-brand-blue transition-colors duration-200"&gt;Import &amp;amp; Export&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#sourcing" class="hover:text-brand-blue transition-colors duration-200"&gt;Product Sourcing&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#consulting" class="hover:text-brand-blue transition-colors duration-200"&gt;Consulting &amp;amp; Compliance&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="bg-brand-blue text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-all duration-300 text-xs font-700 shadow-sm hover:shadow-md"&gt;Contact&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- HERO SECTION WITH FLUID GRADIENT MESH --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="relative overflow-hidden bg-white py-24 lg:py-32 border-b border-slate-200/60"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.05),transparent_45%)]"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto px-6 text-center relative z-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl sm:text-5xl lg:text-6xl font-800 text-brand-navy tracking-tight leading-[1.12]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Uw Strategische Partner voor &lt;br&gt;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-blue-800"&gt;Trade, Sourcing &amp;amp; Marktentree&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-6 text-base sm:text-lg text-slate-500 max-w-3xl mx-auto leading-relaxed font-400"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>GadgetLine B.V. is een internationaal opererende handelsonderneming en adviesbureau. Wij verbinden wereldwijde productiecapaciteit naadloos met de Europese consumenten- en zakelijke markt, met een strikte focus op productveiligheid en kwaliteitscontrole.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- TRADING &amp; RETAIL --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="trading" class="py-24 bg-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-6xl mx-auto px-6 lg:px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center max-w-3xl mx-auto mb-20"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="text-xs font-700 uppercase tracking-widest text-brand-blue bg-blue-50/80 px-3 py-1.5 rounded-lg border border-blue-100"&gt;Commerciële Handel&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-700 tracking-tight text-brand-navy mt-4"&gt;B2C Retail &amp;amp; Import&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="mt-4 text-sm sm:text-base text-slate-500"&gt;Wij exploiteren diverse e-commerce kanalen en importeren hoogwaardige goederen voor directe verkoop aan de eindgebruiker.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="fluid-card p-8 rounded-2xl bg-brand-slate border border-slate-200/60 shadow-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-brand-blue mb-6 shadow-sm"&gt;&lt;i data-lucide="shopping-bag" class="w-5 h-5"&gt;&lt;/i&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-lg font-700 text-brand-navy"&gt;E-Commerce &amp;amp; Marktplaatsen&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-3 text-sm text-slate-500 leading-relaxed"&gt;Verkoop en merkontwikkeling van consumentenelektronica en lifestyle-producten via vooraanstaande Europese platformen zoals Bol.com. Wij beheren de volledige commerciële funnel.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="fluid-card p-8 rounded-2xl bg-brand-slate border border-slate-200/60 shadow-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-brand-blue mb-6 shadow-sm"&gt;&lt;i data-lucide="globe" class="w-5 h-5"&gt;&lt;/i&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-lg font-700 text-brand-navy"&gt;Internationale Import &amp;amp; Export&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-3 text-sm text-slate-500 leading-relaxed"&gt;Het strategisch inkopen en importeren van goederen. Wij overbruggen culturele en zakelijke barrières in cross-border handel, met specifieke expertise in de EU-Azië handelsroutes.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- SOURCING --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="sourcing" class="py-24 bg-brand-slate border-t border-slate-200/60"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-6xl mx-auto px-6 lg:px-8 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-3xl font-700 tracking-tight text-brand-navy mb-16"&gt;B2B Product Sourcing &amp;amp; Procurement&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="fluid-card bg-white p-8 md:p-12 rounded-2xl border border-slate-200/80 shadow-sm text-left flex flex-col md:flex-row gap-8 items-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="w-16 h-16 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center text-brand-navy shrink-0 shadow-inner"&gt;&lt;i data-lucide="search" class="w-6 h-6"&gt;&lt;/i&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="font-700 text-brand-navy text-xl mb-3"&gt;OEM / ODM Bemiddeling&lt;/h4&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-500 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>Als onafhankelijke sourcing partner helpen wij B2B-klanten bij het vinden, beoordelen en contracteren van betrouwbare fabrikanten. Van het eerste concept en sample-creatie tot aan massaproductie, wij treden op als uw inkoopkantoor op afstand. Wij elimineren onnodige tussenschakels voor maximale marges.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CONSULTING &amp; COMPLIANCE --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="consulting" class="py-24 bg-brand-navy text-white relative overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(37,99,235,0.12),transparent_40%)]"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto px-6 relative z-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="space-y-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-xs font-600 uppercase tracking-widest text-blue-400 bg-blue-950/60 px-3 py-1.5 rounded-md border border-blue-900/60"&gt;Advisory Services&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-800 tracking-tight"&gt;Consulting &amp;amp; EU Compliance (GPSR)&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-300 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>Succesvolle handel valt of staat met wetgeving. GadgetLine B.V. biedt pre-market consulting voor buitenlandse merken die de Europese markt willen betreden.<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-300 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>Wij adviseren over de verplichte General Product Safety Regulation (GPSR - EU 2023/988), CE-certificering, en het opzetten van het technische productdossier. Wij zorgen dat geïmporteerde handelsprojecten 100% compliant zijn met de richtlijnen van de NVWA.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-800 space-y-4 shadow-xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-700 text-base mb-4 border-b border-slate-800 pb-3 text-slate-200"&gt;Onze Consulting Focus:&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-3 text-sm text-slate-300"&gt;&lt;i data-lucide="check-circle" class="text-brand-blue w-5 h-5"&gt;&lt;/i&gt; B2B Marktentree Strategie&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-3 text-sm text-slate-300"&gt;&lt;i data-lucide="check-circle" class="text-brand-blue w-5 h-5"&gt;&lt;/i&gt; Contractonderhandelingen (Cross-border)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-3 text-sm text-slate-300"&gt;&lt;i data-lucide="check-circle" class="text-brand-blue w-5 h-5"&gt;&lt;/i&gt; Begeleiding bij CE &amp;amp; RoHS trajecten&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CONTACT FORM --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact" class="py-24 bg-brand-slate"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-md mx-auto px-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-3xl font-800 text-brand-navy tracking-tight text-center"&gt;Neem Contact Op&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;form action="mailto:info@gadgetline.nl" method="GET" enctype="text/plain" class="space-y-5 bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all duration-300 mt-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;label class="block text-[10px] font-700 text-slate-500 uppercase tracking-wider mb-1.5"&gt;Naam / Organisatie&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;input type="text" name="subject" required class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent text-sm bg-slate-50/50 font-medium transition-all"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;label class="block text-[10px] font-700 text-slate-500 uppercase tracking-wider mb-1.5"&gt;Bericht&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;textarea name="body" rows="4" required class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent text-sm bg-slate-50/50 font-medium transition-all"&gt;&lt;/textarea&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button type="submit" class="w-full bg-brand-blue text-white font-700 py-3.5 rounded-xl hover:bg-blue-700 transition-all duration-300 text-sm shadow-sm hover:shadow-md"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Verstuur Aanvraag</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-[10px] text-slate-400 text-center mt-3"&gt;Door dit formulier te gebruiken gaat u akkoord met ons &lt;a href="privacy.html" class="underline text-brand-blue hover:text-blue-800"&gt;Privacybeleid&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- FOOTER --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-brand-navy text-slate-400 py-16 text-xs border-t border-slate-800 mt-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="space-y-3"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="font-700 text-white text-sm tracking-tight"&gt;GadgetLine B.V.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="leading-relaxed"&gt;Internationale handel, sourcing en consultancy. Uw veilige toegang tot de Europese consumentenmarkt.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="space-y-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="font-700 text-white text-sm tracking-tight"&gt;Bedrijfsgegevens&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;KvK-Nummer: &lt;span class="text-slate-300"&gt;[In afwachting]&lt;/span&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Locatie: Regus Maastricht, Nederland&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="md:text-right space-y-3"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="font-700 text-white text-sm tracking-tight"&gt;Compliance &amp;amp; Legal&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="privacy.html" class="block hover:text-white transition-colors underline decoration-slate-700"&gt;Privacybeleid (AVG)&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="voorwaarden.html" class="block hover:text-white transition-colors underline decoration-slate-700"&gt;Algemene Voorwaarden &amp;amp; Disclaimer&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;lucide.createIcons();&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body class="bg-brand-slate text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between">
+
+    <div class="bg-brand-navy text-slate-300 text-[11px] font-medium py-2.5 px-4 text-center border-b border-slate-800 tracking-wide">
+        <span class="inline-flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <strong>EU Regulatory Status:</strong> Operationeel conform Verordening (EU) 2023/988 (GPSR)
+        </span>
+    </div>
+
+    <header class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="logo.png" alt="GadgetLine Symbol" class="h-10 w-auto object-contain">
+                <div class="flex flex-col">
+                    <span class="text-lg font-800 tracking-tight text-brand-navy leading-none">GadgetLine</span>
+                    <span class="text-[9px] text-brand-blue font-700 uppercase tracking-widest mt-1">Global Trade &amp; Consulting B.V.</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-600 text-slate-600">
+                <a href="#trading" class="hover:text-brand-blue transition-colors">Import &amp; Export</a>
+                <a href="#sourcing" class="hover:text-brand-blue transition-colors">Product Sourcing</a>
+                <a href="#consulting" class="hover:text-brand-blue transition-colors">Compliance</a>
+                <a href="#contact" class="bg-brand-blue text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-all text-xs font-700 shadow-sm">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden bg-white py-24 border-b border-slate-200/60">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.04),transparent_45%)]"></div>
+        <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-800 text-brand-navy tracking-tight leading-[1.12]">
+                Uw Regisseur in <br> 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-blue-800">Trading, Sourcing &amp; Compliance</span>
+            </h1>
+            <p class="mt-6 text-base sm:text-lg text-slate-500 max-w-3xl mx-auto leading-relaxed">
+                GadgetLine B.V. is een internationaal opererende handelsonderneming en strategisch adviesbureau gevestigd in Maastricht. Wij ontsluiten wereldwijde toeleveringsketens en begeleiden de veilige marktentree van producten binnen de Europese Unie.
+            </p>
+        </div>
+    </section>
+
+    <section id="trading" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-700 uppercase tracking-widest text-brand-blue bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-100">Core Business</span>
+                <h2 class="text-3xl font-700 tracking-tight text-brand-navy mt-4">Commerciële Handel &amp; Distributie</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="fluid-card p-8 rounded-2xl bg-brand-slate border border-slate-200/60 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-brand-blue mb-6"><i data-lucide="shopping-bag" class="w-5 h-5"></i></div>
+                    <h3 class="text-lg font-700 text-brand-navy">E-Commerce &amp; Cross-Border Import</h3>
+                    <p class="mt-3 text-sm text-slate-500 leading-relaxed">Strategische import en exploitatie van consumentegoederen via leidende Europese retail- en e-commercekanalen zoals Bol.com. Wij sturen op datagedreven multichannel groei.</p>
+                </div>
+                <div class="fluid-card p-8 rounded-2xl bg-brand-slate border border-slate-200/60 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-brand-blue mb-6"><i data-lucide="globe" class="w-5 h-5"></i></div>
+                    <h3 class="text-lg font-700 text-brand-navy">B2B Product Sourcing &amp; Procurement</h3>
+                    <p class="mt-3 text-sm text-slate-500 leading-relaxed">Onafhankelijke sourcing-bemiddeling (OEM/ODM). Wij identificeren, auditeren en contracteren betrouwbare fabrikanten wereldwijd, om toeleveringsketens voor onze partners te optimaliseren.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sourcing" class="py-24 bg-brand-slate border-t border-slate-200/60">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="bg-white p-8 md:p-12 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row gap-8 items-center">
+                <div class="w-14 h-14 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center text-brand-navy shrink-0"><i data-lucide="shield-check" class="w-6 h-6"></i></div>
+                <div>
+                    <h4 class="font-700 text-brand-navy text-xl mb-3">Consulting &amp; EU Product Compliance</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed">
+                        Wij loodsen internationale merken door het complexe Europese landschap. Vanuit onze expertise adviseren wij over de aangescherpte <strong>General Product Safety Regulation (GPSR - EU 2023/988)</strong>, CE-markeringen, technische dossiers en conformiteitsverklaringen. Wij zorgen dat uw portfolio voldoet aan de eisen van Europese toezichthouders zoals de NVWA.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white border-t border-slate-200/60">
+        <div class="max-w-md mx-auto px-6">
+            <h2 class="text-3xl font-800 text-brand-navy tracking-tight text-center">Inkoop- of Adviesaanvraag</h2>
+            <p class="text-center text-xs text-slate-400 mt-2">Voorbereid op compliance screening door bancaire en overheidsinstellingen.</p>
+            
+            <form action="mailto:info@gadgetline.nl" method="GET" enctype="text/plain" class="space-y-4 bg-brand-slate p-6 rounded-2xl border border-slate-200/80 shadow-sm mt-8">
+                <div>
+                    <label class="block text-[10px] font-700 text-slate-500 uppercase tracking-wider mb-1.5">Naam / Organisatie</label>
+                    <input type="text" name="subject" required class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none focus:ring-2 focus:ring-brand-blue bg-white text-sm">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-700 text-slate-500 uppercase tracking-wider mb-1.5">E-mailadres</label>
+                    <input type="email" required class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none focus:ring-2 focus:ring-brand-blue bg-white text-sm">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-700 text-slate-500 uppercase tracking-wider mb-1.5">Toelichting Project</label>
+                    <textarea name="body" rows="4" required class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none focus:ring-2 focus:ring-brand-blue bg-white text-sm"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-brand-blue text-white font-700 py-3.5 rounded-xl hover:bg-blue-700 transition-all text-sm shadow-sm">
+                    Verzend Veilige Aanvraag
+                </button>
+                <p class="text-[10px] text-slate-400 text-center mt-3">Dit formulier is beveiligd. Met verzending accordeert u ons <a href="privacy.html" class="underline text-brand-blue">Privacybeleid</a>.</p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-brand-navy text-slate-400 py-16 text-xs border-t border-slate-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="space-y-3">
+                <p class="font-700 text-white text-sm">GadgetLine B.V.</p>
+                <p class="leading-relaxed">Geregistreerde Nederlandse besloten vennootschap voor internationale commerciële handel, strategische sourcing en product compliance.</p>
+            </div>
+            <div class="space-y-2">
+                <p class="font-700 text-white text-sm">Organisatie &amp; Governance</p>
+                <p>KvK-Nummer: <span class="text-slate-300 font-500">In oprichting / afwachting</span></p>
+                <p>BTW-Nummer: <span class="text-slate-300 font-500">In aanvraag</span></p>
+                <p>Statutaire Zetel: Regus Maastricht, Nederland</p>
+            </div>
+            <div class="md:text-right space-y-3">
+                <p class="font-700 text-white text-sm">Wettelijke Registers</p>
+                <a href="privacy.html" class="block hover:text-white transition-colors underline decoration-slate-800">Privacyverklaring (AVG)</a>
+                <a href="voorwaarden.html" class="block hover:text-white transition-colors underline decoration-slate-800">Algemene Voorwaarden &amp; Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
 </body>
 </html>

@@ -3,151 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GadgetLine B.V. | Sourcing & Handel</title>
+    <title>GadgetLine B.V. | Global Sourcing Corridor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-white text-neutral-950 antialiased selection:bg-neutral-100">
+<body class="bg-white text-neutral-950 antialiased">
 
-    <!-- NAVIGATIE -->
-    <header class="bg-white/80 backdrop-blur-md border-b border-neutral-100 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <!-- NAVIGATIE (Aangepast voor perfecte weergave op witte/zilveren balken) -->
+    <header class="bg-white/90 backdrop-blur-md border-b border-neutral-200/80 sticky top-0 z-50 transition-colors duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
             <a href="index.html" class="block">
-                <img src="logo.png" alt="GadgetLine B.V." class="h-12 w-auto object-contain">
+                <!-- Groter logo ingeladen met behoud van transparantie -->
+                <img src="logo.svg" alt="GadgetLine B.V." class="h-20 w-auto object-contain py-1">
             </a>
-            <nav class="hidden md:flex gap-8 text-xs font-semibold uppercase tracking-wider text-neutral-500">
-                <a href="#profiel" class="hover:text-neutral-950 transition">Bedrijfsprofiel</a>
-                <a href="#producten" class="hover:text-neutral-950 transition">Productgroepen</a>
-                <a href="#contact" class="hover:text-neutral-950 transition">Contact</a>
+            <nav class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-wider text-neutral-600">
+                <a href="#profiel" class="hover:text-blue-600 transition">Bedrijfsprofiel</a>
+                <a href="#netwerk" class="hover:text-blue-600 transition">Shenzhen Hub</a>
+                <a href="#producten" class="hover:text-blue-600 transition">Productgroepen</a>
+                <a href="investors.html" class="text-blue-600 hover:text-blue-800 transition">Investor Relations</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
             </nav>
         </div>
     </header>
 
-    <!-- HERO SECTION -->
-    <section id="profiel" class="py-24 md:py-32 border-b border-neutral-100">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase bg-neutral-50 border border-neutral-200/60 px-3 py-1 rounded-full">Handelsonderneming</span>
-            <h1 class="text-4xl md:text-6xl font-extrabold text-neutral-950 mt-6 tracking-tight leading-[1.1]">
-                Efficiënte Sourcing. <br><span class="text-neutral-400 font-light">Betrouwbare Logistiek.</span>
-            </h1>
-            <p class="text-lg md:text-xl text-neutral-500 mt-6 font-normal max-w-2xl mx-auto leading-relaxed">
-                GadgetLine B.V. is een Nederlandse handelsonderneming gespecialiseerd in product sourcing, kwaliteitscontrole en marktintroducties binnen de Europese Unie. Wij verbinden internationale leveranciers met de Europese markt.
-            </p>
+    <!-- HERO / BEDRIJFSPROFIEL (Zonder logistiek-claims) -->
+    <section id="profiel" class="relative bg-gradient-to-br from-neutral-50 via-white to-neutral-100/40 py-24 border-b border-neutral-200/60 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-7 space-y-6">
+                <span class="text-[10px] font-bold tracking-[0.2em] text-blue-600 uppercase bg-blue-50 border border-blue-200/50 px-3 py-1 rounded-full">Commercial Sourcing Partner</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-neutral-950 tracking-tight leading-[1.1]">
+                    Directe Inkoop. <br><span class="text-neutral-400 font-light">Waterdichte Compliance.</span>
+                </h1>
+                <p class="text-base text-neutral-500 font-normal max-w-xl leading-relaxed">
+                    GadgetLine B.V. optimaliseert de handelsstroom tussen vooraanstaande Aziatische fabrikanten en de Europese zakelijke markt. Wij treden op als strategisch architect van uw supply chain: van fabrieksaudits tot volledige EU-productcertificering, zonder onnodige tussenschakels.
+                </p>
+                <div class="pt-2">
+                    <a href="#producten" class="bg-neutral-950 text-white text-xs font-bold px-6 py-4 rounded-lg hover:bg-neutral-800 transition uppercase tracking-wider shadow-sm">Ontdek Productlijnen</a>
+                </div>
+            </div>
+            <div class="md:col-span-5 relative">
+                <div class="absolute inset-0 bg-blue-500/5 rounded-3xl blur-2xl transform translate-x-4 translate-y-4"></div>
+                <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" alt="Global Trade Hub" class="w-full h-80 md:h-[380px] object-cover rounded-2xl shadow-lg relative z-10 border border-neutral-200">
+            </div>
         </div>
     </section>
 
-    <!-- PRODUCTGROEPEN (NU KLIKBAAR) -->
+    <!-- SHENZHEN STRUCTURE CORRIDOR -->
+    <section id="netwerk" class="py-20 bg-neutral-50 border-b border-neutral-200/60">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1549638441-b786d4bcb11d?auto=format&fit=crop&w=800&q=80" alt="Shenzhen Tech Infrastructure" class="w-full h-72 object-cover rounded-2xl border border-neutral-200 shadow-sm">
+            </div>
+            <div class="space-y-4 order-1 md:order-2">
+                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">Directe Integratie</span>
+                <h2 class="text-3xl font-bold tracking-tight text-neutral-950">Onze Shenzhen Connectie</h2>
+                <p class="text-xs text-neutral-600 leading-relaxed">
+                    GadgetLine B.V. opereert als de Europese marktoegang van een gevestigd overkoepelend netwerk in **Shenzhen, China**. Deze directe structuur biedt ongeëvenaarde handelsvoordelen. 
+                </p>
+                <p class="text-xs text-neutral-600 leading-relaxed">
+                    In plaats van te vertrouwen op externe agenten, communiceren wij rechtstreeks met de productielijnen. Dit garandeert scherpe prijsafspraken, strenge kwaliteitscontroles bij de bron en directe grip op de productspecificaties voordat de goederen richting Europa vertrekken.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTGROEPEN (Interactief en gecorrigeerd) -->
     <section id="producten" class="py-24 max-w-6xl mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-4">
             <div>
-                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">Assortiment</span>
-                <h2 class="text-3xl font-bold tracking-tight text-neutral-950 mt-1">Onze Productgroepen</h2>
-                <p class="text-xs text-neutral-400 mt-2">Klik op een categorie voor aanvullende specificaties en details.</p>
+                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">Portfolio</span>
+                <h2 class="text-3xl font-bold tracking-tight text-neutral-950 mt-1">Gecureerde Categorieën</h2>
+                <p class="text-xs text-neutral-400 mt-2">Klik op een categorie om de volledige sfeerimpressie en technische standaarden te openen.</p>
             </div>
-            <p class="text-sm text-neutral-500 max-w-sm leading-relaxed">
-                Een overzicht van de categorieën waarin wij actief inkoop- en handelsactiviteiten ontplooien.
-            </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- 1. Outdoor & Survival Gear -->
-            <div onclick="openModal('outdoor')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/60 overflow-hidden transition-all duration-300 hover:border-neutral-400 cursor-pointer">
-                <div class="h-64 bg-neutral-200 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80" alt="Outdoor Gear" class="w-full h-full object-cover grayscale opacity-90 group-hover:scale-105 group-hover:grayscale-0 transition duration-700 ease-out">
+            <!-- 1. Outdoor -->
+            <div onclick="openModal('outdoor')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/80 overflow-hidden transition-all duration-300 hover:border-blue-500 cursor-pointer shadow-sm">
+                <div class="h-60 bg-neutral-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80" alt="Outdoor Sourcing" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
                 <div class="p-8">
-                    <h3 class="text-lg font-bold text-neutral-950 flex justify-between items-center">
+                    <h3 class="text-base font-bold text-neutral-950 flex justify-between items-center">
                         Outdoor & Survival Gear
-                        <span class="text-xs text-neutral-400 font-normal group-hover:text-neutral-950 transition">Bekijk &rarr;</span>
+                        <span class="text-xs text-blue-600 font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Bekijk &rarr;</span>
                     </h3>
-                    <p class="text-xs text-neutral-500 mt-3 leading-relaxed">
-                        Sourcing van kampeeruitrustingen, multifunctionele tools en handige accessoires voor de outdoor- en vrijetijdsmarkt.
+                    <p class="text-xs text-neutral-500 mt-2 leading-relaxed">
+                        Sourcing van hoogwaardige kampeeruitrustingen, tools en overlevingstoebehoren voor de Europese groothandel.
                     </p>
                 </div>
             </div>
 
             <!-- 2. Consumer Electronics -->
-            <div onclick="openModal('electronics')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/60 overflow-hidden transition-all duration-300 hover:border-neutral-400 cursor-pointer">
-                <div class="h-64 bg-neutral-200 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80" alt="Electronics" class="w-full h-full object-cover grayscale opacity-90 group-hover:scale-105 group-hover:grayscale-0 transition duration-700 ease-out">
+            <div onclick="openModal('electronics')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/80 overflow-hidden transition-all duration-300 hover:border-blue-500 cursor-pointer shadow-sm">
+                <div class="h-60 bg-neutral-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80" alt="Electronics Sourcing" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
                 <div class="p-8">
-                    <h3 class="text-lg font-bold text-neutral-950 flex justify-between items-center">
+                    <h3 class="text-base font-bold text-neutral-950 flex justify-between items-center">
                         Consumer Electronics
-                        <span class="text-xs text-neutral-400 font-normal group-hover:text-neutral-950 transition">Bekijk &rarr;</span>
+                        <span class="text-xs text-blue-600 font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Bekijk &rarr;</span>
                     </h3>
-                    <p class="text-xs text-neutral-500 mt-3 leading-relaxed">
-                        Inkoop en distributiebegeleiding van handige consumentenelektronica, slimme gadgets en mobiele accessoires.
+                    <p class="text-xs text-neutral-500 mt-2 leading-relaxed">
+                        Inkoopbegeleiding van slimme consumentenelektronica, innovatieve gadgets en mobiele hardware-accessoires.
                     </p>
                 </div>
             </div>
 
-            <!-- 3. Sport & Fitness Equipment -->
-            <div onclick="openModal('fitness')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/60 overflow-hidden transition-all duration-300 hover:border-neutral-400 cursor-pointer">
-                <div class="h-64 bg-neutral-200 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" alt="Fitness Equipment" class="w-full h-full object-cover grayscale opacity-90 group-hover:scale-105 group-hover:grayscale-0 transition duration-700 ease-out">
+            <!-- 3. Sport & Fitness -->
+            <div onclick="openModal('fitness')" class="group bg-neutral-50 rounded-2xl border border-neutral-200/80 overflow-hidden transition-all duration-300 hover:border-blue-500 cursor-pointer shadow-sm">
+                <div class="h-60 bg-neutral-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" alt="Sport Sourcing" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
                 <div class="p-8">
-                    <h3 class="text-lg font-bold text-neutral-950 flex justify-between items-center">
+                    <h3 class="text-base font-bold text-neutral-950 flex justify-between items-center">
                         Sport & Fitness Equipment
-                        <span class="text-xs text-neutral-400 font-normal group-hover:text-neutral-950 transition">Bekijk &rarr;</span>
+                        <span class="text-xs text-blue-600 font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Bekijk &rarr;</span>
                     </h3>
-                    <p class="text-xs text-neutral-500 mt-3 leading-relaxed">
-                        Sourcing van compacte sportartikelen, fitnessaccessoires en actieve lifestyle-producten voor de Europese retail.
+                    <p class="text-xs text-neutral-500 mt-2 leading-relaxed">
+                        Sourcing van compacte sportbenodigdheden, thuisfitness-artikelen en actieve vrijetijdsproducten.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- DYNAMISCH VENSTER (MODAL) VOOR EXTRA PLAATJES EN DATA -->
-    <div id="detailModal" class="fixed inset-0 bg-neutral-950/40 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
-        <div class="bg-white max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 animate-in fade-in zoom-in duration-200 max-h-[90vh] overflow-y-auto">
-            <div class="p-6 border-b border-neutral-100 flex justify-between items-center">
-                <h3 id="modalTitle" class="text-xl font-bold text-neutral-950"></h3>
-                <button onclick="closeModal()" class="text-neutral-400 hover:text-neutral-950 font-bold text-sm uppercase tracking-wider">&times; Sluiten</button>
+    <!-- DYNAMISCH DETAILSVENSTER (Volledig hersteld: toont gegarandeerd beide plaatjes) -->
+    <div id="detailModal" class="fixed inset-0 bg-neutral-950/70 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 max-h-[90vh] overflow-y-auto animate-fade-in">
+            <div class="p-6 border-b border-neutral-100 flex justify-between items-center bg-neutral-50">
+                <h3 id="modalTitle" class="text-lg font-bold text-neutral-950 tracking-tight"></h3>
+                <button onclick="closeModal()" class="text-neutral-400 hover:text-neutral-950 font-bold text-xl px-2">&times;</button>
             </div>
-            <div class="p-8">
-                <!-- Grid voor extra afbeeldingen -->
-                <div id="modalImages" class="grid grid-cols-2 gap-4 mb-6"></div>
-                <!-- Extra informatie -->
-                <p id="modalDescription" class="text-xs text-neutral-600 leading-relaxed mb-4"></p>
-                <div class="bg-neutral-50 p-4 rounded-xl border border-neutral-200/60">
-                    <h4 class="text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-2">Sourcing Specificaties</h4>
-                    <ul id="modalSpecs" class="text-xs text-neutral-500 space-y-1 list-disc pl-4"></ul>
+            <div class="p-8 space-y-6">
+                <!-- Grid voor de twee gekoppelde afbeeldingen -->
+                <div id="modalImages" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+                
+                <p id="modalDescription" class="text-xs text-neutral-600 leading-relaxed border-t border-neutral-100 pt-4"></p>
+                
+                <div class="bg-slate-50 p-5 rounded-xl border border-neutral-200/60">
+                    <h4 class="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">Kwaliteitswaarborg & Traceerbaarheid</h4>
+                    <ul id="modalSpecs" class="text-xs text-slate-600 space-y-2 list-disc pl-4"></ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- PRODUCTVEILIGHEID & RICHTLIJNEN -->
+    <!-- QUALITY ASSURANCE & MARKET COMPLIANCE -->
     <section class="bg-neutral-950 text-white py-20">
         <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-500 uppercase">Wet- en regelgeving</span>
-                <h2 class="text-2xl font-bold tracking-tight text-white mt-2">Kwaliteit & EU-Richtlijnen</h2>
+                <span class="text-[10px] font-bold tracking-[0.2em] text-blue-500 uppercase">Wet- en Regelgeving</span>
+                <h2 class="text-2xl font-bold tracking-tight text-white mt-2">GPSR & Europese Standaarden</h2>
                 <p class="text-neutral-400 mt-4 text-xs leading-relaxed">
-                    Bij GadgetLine B.V. zorgen we ervoor dat al onze productlijnen volledig voldoen aan de geldende Europese wet- en regelgeving, waaronder de actuele GPSR-veiligheidsnormen. Wij controleren de documentatie, traceerbaarheid en etikettering zorgvuldig, zodat goederen veilig verhandeld kunnen worden binnen de EU.
+                    Productveiligheid staat centraal in onze handelsactiviteiten. Wij screenen fabrikanten intensief op productcompliance en conformiteit met de nieuwste GPSR (General Product Safety Regulation) richtlijnen, zodat goederen risicoloos op de Europese markt gebracht kunnen worden.
                 </p>
             </div>
             <div class="space-y-4 border-l border-neutral-800 pl-6 text-xs text-neutral-400">
-                <p><strong class="text-white block mb-0.5">Productveiligheid:</strong> Strikte controle op Europese certificeringen en normen.</p>
-                <p><strong class="text-white block mb-0.5">Traceerbaarheid:</strong> Heldere vastlegging van de toeleveringsketen van fabriek tot levering.</p>
-                <p><strong class="text-white block mb-0.5">Betrouwbaarheid:</strong> Zorgvuldige afhandeling van importdocumenten en douaneverplichtingen.</p>
+                <p><strong class="text-white block mb-0.5">Certificering:</strong> Validatie van CE, RoHS en REACH documenten direct bij de producent.</p>
+                <p><strong class="text-white block mb-0.5">Ketenbeheer:</strong> Sluitende traceerbaarheid van fabriekspoort tot overdracht aan uw transportpartner.</p>
+                <p><strong class="text-white block mb-0.5">Risicomanagement:</strong> Strikte controle op etikettering en meertalige handleidingen.</p>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT FORMULIER -->
-    <section id="contact" class="bg-neutral-50 py-24 border-t border-b border-neutral-200/60">
+    <!-- CONTACT -->
+    <section id="contact" class="bg-neutral-50 py-24 border-t border-neutral-200/60">
         <div class="max-w-xl mx-auto px-6">
             <div class="text-center mb-10">
-                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">Bericht sturen</span>
-                <h2 class="text-2xl font-bold tracking-tight text-neutral-950 mt-1">Contact</h2>
-                <p class="text-xs text-neutral-500 mt-2">Heeft u vragen over onze productlijnen of zoekt u een betrouwbare handelspartner? Neem gerust contact met ons op via onderstaand formulier.</p>
+                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">B2B Trade Corridor</span>
+                <h2 class="text-2xl font-bold tracking-tight text-neutral-950 mt-1">Neem Contact Op</h2>
+                <p class="text-xs text-neutral-500 mt-2">Wilt u uw sourcingtraject professionaliseren of heeft u specifieke productwensen? Vul het onderstaande formulier in.</p>
             </div>
             
             <form action="https://formspree.io/f/sales@gadgetline.nl" method="POST" class="space-y-5 bg-white p-8 rounded-2xl border border-neutral-200/60 shadow-sm">
@@ -166,28 +195,20 @@
                     </div>
                 </div>
                 <div>
-                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Bericht *</label>
+                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Aanvraagbericht *</label>
                     <textarea name="message" rows="4" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition"></textarea>
                 </div>
-                <button type="submit" class="w-full bg-neutral-950 text-white text-xs font-bold py-3 rounded-lg hover:bg-neutral-800 transition tracking-wider uppercase">Verzenden</button>
+                <button type="submit" class="w-full bg-neutral-950 text-white text-xs font-bold py-3.5 rounded-lg hover:bg-neutral-800 transition tracking-wider uppercase">Verzenden</button>
             </form>
         </div>
     </section>
 
-    <!-- COOKIE BANNER -->
-    <div id="cookieBanner" class="fixed bottom-6 right-6 max-w-sm bg-neutral-950 text-white p-6 rounded-xl shadow-2xl z-50 border border-neutral-800 flex flex-col gap-4">
-        <p class="text-xs text-neutral-400 leading-relaxed">
-            GadgetLine B.V. gebruikt noodzakelijke cookies om de website correct te laten functioneren. Lees ons <a href="cookies.html" class="text-white underline hover:text-neutral-300">Cookiebeleid</a>.
-        </p>
-        <button onclick="document.getElementById('cookieBanner').style.display='none'" class="bg-white text-neutral-950 text-[10px] font-bold uppercase tracking-wider py-2 rounded text-center hover:bg-neutral-200 transition">Accepteren</button>
-    </div>
-
     <!-- FOOTER -->
-    <footer class="bg-white py-16 text-xs text-neutral-400 border-t border-neutral-100">
+    <footer class="bg-white py-16 text-xs text-neutral-400 border-t border-neutral-200/60">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
                 <h4 class="font-bold text-neutral-950 uppercase tracking-widest text-[10px] mb-4">Adresgegevens</h4>
-                <p class="font-medium text-neutral-700">GadgetLine B.V.</p>
+                <p class="font-semibold text-neutral-700">GadgetLine B.V.</p>
                 <p class="mt-1">Avenue Ceramique 221<br>6221 KX Maastricht<br>Nederland</p>
             </div>
             <div>
@@ -201,44 +222,44 @@
                     <a href="privacy.html" class="text-neutral-600 hover:text-neutral-950 underline decoration-neutral-200">Privacyverklaring</a>
                     <a href="voorwaarden.html" class="text-neutral-600 hover:text-neutral-950 underline decoration-neutral-200">Algemene Voorwaarden</a>
                     <a href="cookies.html" class="text-neutral-600 hover:text-neutral-950 underline decoration-neutral-200">Cookiebeleid</a>
+                    <a href="investors.html" class="text-blue-600 hover:text-blue-950 font-semibold mt-1">Investor Relations</a>
                 </div>
-                <p class="mt-3 text-[10px]">Directie: <a href="mailto:management@gadgetline.nl" class="text-neutral-700 hover:underline">management@gadgetline.nl</a></p>
             </div>
         </div>
-        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-neutral-100 text-center text-[10px] text-neutral-400">
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-neutral-100 text-center text-[10px]">
             <p>&copy; 2026 GadgetLine B.V. Alle rechten voorbehouden.</p>
         </div>
     </footer>
 
-    <!-- INTERACTIEVE SCRIPT CODE -->
+    <!-- SCRIPT MET CORRECTE EN VOLLEDIGE HOOGWAARDIGE AFBEELDINGSKOPPELINGEN -->
     <script>
         const categoryData = {
             outdoor: {
                 title: "Outdoor & Survival Gear",
-                desc: "Ons netwerk levert professionele kampeeruitrustingen, tactische rugzakken en compacte hulpsystemen. Elk product wordt streng gescreend op materiaalsterkte, weersbestendigheid en veilige toepasbaarheid.",
+                desc: "Wij verzorgen het volledige sourcingtraject voor professionele kampeeruitrusting, tactische hulpmiddelen en outdoor-accessoires. Onze focus ligt op mechanische materiaalsterkte en strikte materiaalcompliance volgens Europese richtlijnen.",
                 images: [
-                    "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=400&q=80",
-                    "https://images.unsplash.com/photo-1537430802126-c1ed6d6a1034?auto=format&fit=crop&w=400&q=80"
+                    "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80",
+                    "https://images.unsplash.com/photo-1533632325162-604312fc0d17?auto=format&fit=crop&w=600&q=80"
                 ],
-                specs: ["CE-gecertificeerde materialen", "Grondstofinspectie op waterdichtheid", "Sluitende traceerbaarheidrapportages conform EU-eisen"]
+                specs: ["Materiaalscreening op duurzaamheid en weerbestendigheid", "GPSR-veiligheidscontroles en traceerbaarheidsaudits", "Directe fabriekskoppeling via ons netwerk in Shenzhen"]
             },
             electronics: {
                 title: "Consumer Electronics",
-                desc: "Wij verzorgen de inkoopbegeleiding van moderne consumentenelektronica, slimme huishoudelijke gadgets en mobiele accessoires. Hierbij ligt de nadruk op betrouwbare elektronische componenten en veilige stroomvoorzieningen.",
+                desc: "Strategische inkoop van betrouwbare consumentenelektronica en mobiele hardware-accessoires. Alle elektronische componenten worden direct bij de partner-fabrikanten in Shenzhen gecontroleerd op cruciale veiligheidsaspecten.",
                 images: [
-                    "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=400&q=80",
-                    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+                    "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+                    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
                 ],
-                specs: ["Volledige CE, RoHS en WEEE compliance screening", "Fabrieksaudits op batterijveiligheid", "Etikettering- en handleidingcontrole conform Nederlandse normen"]
+                specs: ["Verificatie van CE, RoHS en WEEE-registraties", "Kwaliteitscontroles op interne printplaten en laadbeveiliging", "Toezicht op correcte productetikettering en verpakkingsvoorwaarden"]
             },
             fitness: {
                 title: "Sport & Fitness Equipment",
-                desc: "Sourcing van compacte thuissportartikelen, ergonomische trainingsaccessoires en actieve lifestyle-producten. Geselecteerd op basis van intensieve mechanische belastingtesten en hoogwaardige afwerking.",
+                desc: "Inkoopbegeleiding van compacte thuissportartikelen, kracht- en behendigheidsaccessoires. De fabricage wordt nauwgezet gecontroleerd om te voldoen aan de chemische en fysieke gebruikseisen binnen de Europese Unie.",
                 images: [
-                    "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=400&q=80",
-                    "https://images.unsplash.com/photo-1517838448102-797678971a69?auto=format&fit=crop&w=400&q=80"
+                    "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80",
+                    "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=600&q=80"
                 ],
-                specs: ["Materiaalscreening op schadelijke stoffen (REACH)", "Duurzaamheid- en belastingtesten bij fabrikanten", "Geoptimaliseerde verpakkingscontroles voor veilig transport"]
+                specs: ["Materiaalscreening conform de REACH-verordening", "Mechanische belastingtests onder fabriekstoezicht", "Efficiënte exportverpakking ter bescherming van de handelsstroom"]
             }
         };
 
@@ -249,17 +270,17 @@
             document.getElementById('modalTitle').innerText = data.title;
             document.getElementById('modalDescription').innerText = data.desc;
             
-            // Plaatjes genereren
             const imgContainer = document.getElementById('modalImages');
-            imgContainer.innerHTML = '';
+            imgContainer.innerHTML = ''; // Maakt container leeg
+            
+            // Genereert exact twee unieke afbeeldingen naast elkaar
             data.images.forEach(src => {
                 const img = document.createElement('img');
                 img.src = src;
-                img.className = "w-full h-40 object-cover rounded-xl border border-neutral-200 grayscale hover:grayscale-0 transition duration-300";
+                img.className = "w-full h-44 object-cover rounded-xl border border-neutral-200 shadow-sm";
                 imgContainer.appendChild(img);
             });
 
-            // Specs genereren
             const specsContainer = document.getElementById('modalSpecs');
             specsContainer.innerHTML = '';
             data.specs.forEach(text => {
@@ -269,7 +290,7 @@
             });
 
             document.getElementById('detailModal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // Voorkom scrollen op achtergrond
+            document.body.style.overflow = 'hidden';
         }
 
         function closeModal() {
@@ -277,7 +298,6 @@
             document.body.style.overflow = '';
         }
 
-        // Sluiten bij klikken buiten het venster
         window.onclick = function(event) {
             const modal = document.getElementById('detailModal');
             if (event.target == modal) {

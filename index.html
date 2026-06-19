@@ -3,130 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GadgetLine | Premium Gear & Electronics</title>
+    <title>GadgetLine B.V. | Corporate Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .hero-gradient { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
     </style>
 </head>
-<body class="bg-white text-slate-900">
+<body class="bg-slate-50 text-slate-900 antialiased">
 
-    <!-- NAVIGATIE & LOGO -->
-    <nav class="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
-        <!-- Zorg dat je logo bestand 'logo.png' heet in github -->
-        <img src="logo.png" alt="GadgetLine Logo" class="h-20 object-contain">
-        
-        <div class="hidden md:flex gap-8 text-sm font-semibold text-slate-600">
-            <a href="#" class="hover:text-black transition">Shop</a>
-            <a href="#" class="hover:text-black transition">Collecties</a>
-            <a href="#" class="hover:text-black transition">Over Ons</a>
-            <a href="mailto:management@gadgetline.nl" class="bg-black text-white px-5 py-2 rounded-full hover:bg-slate-800 transition">Contact</a>
-        </div>
-    </nav>
-
-    <!-- HERO SECTIE (2026 Vibe) -->
-    <header class="hero-gradient px-8 py-24 mt-4 rounded-3xl max-w-7xl mx-auto text-center shadow-sm border border-slate-100">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-slate-900">
-            Equip Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-600 to-black">Lifestyle.</span>
-        </h1>
-        <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            GadgetLine B.V. brengt hoogwaardige outdoor gear, slimme elektronica en innovatieve tools naar de Europese markt. Kwaliteit waar je op kunt bouwen.
-        </p>
-        <div class="flex justify-center gap-4">
-            <button class="bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-slate-800 transition shadow-lg">Bekijk Collectie</button>
+    <!-- HEADER / NAVIGATIE -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <img src="logo.png" alt="GadgetLine B.V." class="h-14 object-contain">
+            <div class="flex gap-6 text-sm font-medium text-slate-600">
+                <a href="#profiel" class="hover:text-blue-600 transition">Bedrijfsprofiel</a>
+                <a href="#portfolio" class="hover:text-blue-600 transition">Portfolio</a>
+                <a href="#compliance" class="hover:text-blue-600 transition">Compliance</a>
+                <a href="#legal" class="hover:text-blue-600 transition">Juridisch & Privacy</a>
+            </div>
         </div>
     </header>
 
-    <!-- PRODUCT CATEGORIEËN -->
-    <section class="max-w-7xl mx-auto px-8 py-24">
-        <div class="flex justify-between items-end mb-12">
-            <h2 class="text-3xl font-bold text-slate-900">Ontdek Onze Categorieën</h2>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Categorie 1: Outdoor (Referentie naar jouw PDF) -->
-            <div class="group cursor-pointer">
-                <div class="overflow-hidden rounded-3xl bg-slate-100 mb-6 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1522163182402-834f875f8561?auto=format&fit=crop&w=800&q=80" alt="Outdoor Survival" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <h3 class="text-2xl font-bold mb-2">Outdoor & Survival</h3>
-                <p class="text-slate-500">Premium tactische uitrusting, survival kits en camping essentials voor elk avontuur.</p>
-            </div>
-
-            <!-- Categorie 2: Electronics -->
-            <div class="group cursor-pointer">
-                <div class="overflow-hidden rounded-3xl bg-slate-100 mb-6 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1558002038-103290948831?auto=format&fit=crop&w=800&q=80" alt="Smart Home" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <h3 class="text-2xl font-bold mb-2">Smart Home & Electronics</h3>
-                <p class="text-slate-500">Innovatieve elektronica en slimme apparaten die het dagelijks leven optimaliseren.</p>
-            </div>
-
-            <!-- Categorie 3: Tools -->
-            <div class="group cursor-pointer">
-                <div class="overflow-hidden rounded-3xl bg-slate-100 mb-6 aspect-square">
-                    <img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=800&q=80" alt="Tools & Gear" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <h3 class="text-2xl font-bold mb-2">Premium Tools & Gear</h3>
-                <p class="text-slate-500">Duurzame, multifunctionele gereedschappen voor professioneel en thuisgebruik.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- KWALITEITSGARANTIE (Goed voor B2B en Consument) -->
-    <section class="bg-slate-50 py-20 border-t border-slate-100">
-        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-12 text-center">
-            <div>
-                <h4 class="text-xl font-bold mb-3 text-slate-900">EU Compliant (GPSR)</h4>
-                <p class="text-slate-600">Al onze producten voldoen aan de strengste Europese veiligheids- en kwaliteitsnormen.</p>
-            </div>
-            <div>
-                <h4 class="text-xl font-bold mb-3 text-slate-900">Premium Sourcing</h4>
-                <p class="text-slate-600">Wij werken uitsluitend met gecertificeerde fabrikanten voor de beste kwaliteit.</p>
-            </div>
-            <div>
-                <h4 class="text-xl font-bold mb-3 text-slate-900">Snelle Levering</h4>
-                <p class="text-slate-600">Geoptimaliseerde logistiek vanuit onze distributiepunten binnen de EU.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER (STRIKT VOOR KYC / BANK / REGUS) -->
-    <footer class="bg-white border-t border-slate-200 py-16">
-        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-12 text-sm text-slate-500">
+    <!-- HERO SECTIE (Strak & Zakelijk) -->
+    <section id="profiel" class="bg-white py-20 border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <span class="text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 px-3 py-1 rounded-full">Corporate Profile</span>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mt-4 tracking-tight">GadgetLine B.V.</h1>
+            <p class="text-xl text-slate-600 mt-4 font-light max-w-2xl mx-auto leading-relaxed">
+                Internationale handelsonderneming gespecialiseerd in strategische product sourcing, supply chain management en marktintroducties binnen de Europese Unie.
+            </p>
             
-            <!-- Bedrijfsinfo -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-lg">B2B & B2C Sourcing</h3>
+                    <p class="text-sm text-slate-600 mt-2">Wij bemiddelen en sourcen hoogwaardige productlijnen voor zowel de zakelijke markt als grootschalige retailkanalen.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-lg">Product Compliance</h3>
+                    <p class="text-sm text-slate-600 mt-2">Volledige screening en certificering conform de nieuwste Europese wet- en regelgeving, waaronder de GPSR-normen.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 text-lg">Supply Chain</h3>
+                    <p class="text-sm text-slate-600 mt-2">Efficiënte logistieke netwerken en kwaliteitscontroles ter waarborging van veilige en tijdige marktleveringen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTIE (De 3 Categorieën als referentiekader) -->
+    <section id="portfolio" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-900">Operationele Sectoren</h2>
+            <p class="text-slate-600 mt-2">Een overzicht van de productgroepen waarin GadgetLine B.V. actief sourcing- en handelsactiviteiten ontplooit.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Categorie 1: Outdoor & Survival (Gekoppeld aan je PDF data) -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <div class="h-48 bg-slate-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1522163182402-834f875f8561?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900">Outdoor & Survival Gear</h3>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Sourcing van professionele outdooruitrustingen, multifunctionele kampeertools, tactische rugzakken en gecertificeerde eerste-hulpsystemen voor de Europese markt.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Categorie 2: Consumer Electronics -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <div class="h-48 bg-slate-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1558002038-103290948831?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900">Consumer Electronics</h3>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Begeleiding en inkoop van innovatieve consumentenelektronica, slimme huishoudelijke apparaten en mobiele accessoires die voldoen aan de CE- en RoHS-richtlijnen.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Categorie 3: Home & Kitchen Essentials -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <div class="h-48 bg-slate-200 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-slate-900">Home & Kitchen Essentials</h3>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Duurzame huishoudelijke artikelen, ergonomische keukenonderdelen en dagelijkse gebruiksvoorwerpen geselecteerd op basis van materiaalveiligheid en logistieke efficiëntie.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPLIANCE & STANDAARDEN -->
+    <section id="compliance" class="bg-slate-900 text-slate-100 py-16 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <h4 class="text-slate-900 font-bold mb-4 uppercase tracking-wider text-xs">Bedrijfsgegevens</h4>
+                <h2 class="text-2xl font-bold tracking-tight">Kwaliteitswaarborging & EU Compliance</h2>
+                <p class="text-slate-400 mt-4 text-sm leading-relaxed">
+                    GadgetLine B.V. opereert strikt volgens de wettelijke kaders van de Europese Unie. Elk producttraject ondergaat een intensieve toetsing op productveiligheid, etikettering en importdocumentatie. Dit garandeert dat alle goederen risicoloos verhandeld kunnen worden binnen de EU-lidstaten.
+                </p>
+            </div>
+            <div class="space-y-4 border-l border-slate-800 pl-6 text-sm text-slate-400">
+                <p><strong class="text-white">GPSR Compliant:</strong> Volledige traceerbaarheid en productveiligheid gegarandeerd.</p>
+                <p><strong class="text-white">Toeleveringsketen Controle:</strong> Directe audits bij fabrikanten ter voorkoming van kwaliteitsafwijkingen.</p>
+                <p><strong class="text-white">Risicomanagement:</strong> Sluitende juridische en logistieke structuren voor zakelijke partners.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JURIDISCH, PRIVACY & VOORWAARDEN (100% Werkend voor KYC-Check) -->
+    <section id="legal" class="bg-white py-16 border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 text-center">Juridische Documentatie & Beleid</h2>
+            
+            <div class="space-y-6">
+                <!-- Privacyverklaring -->
+                <div class="border border-slate-200 rounded-xl p-6 bg-slate-50">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3">1. Privacyverklaring (Privacy Policy)</h3>
+                    <div class="text-xs text-slate-600 space-y-3 leading-relaxed max-h-48 overflow-y-auto pr-2">
+                        <p><strong>Algemeen:</strong> GadgetLine B.V. respecteert de privacy van de bezoekers van haar website en relaties en zorgt dat persoonlijke informatie vertrouwelijk wordt behandeld conform de Algemene Verordening Gegevensbescherming (AVG).</p>
+                        <p><strong>Gegevensverwerking:</strong> Wij verwerken uitsluitend gegevens die noodzakelijk zijn voor onze zakelijke dienstverlening. Dit omvat bedrijfsnamen, contactpersoongegevens en zakelijke e-mailadressen die via directe correspondentie worden verkregen.</p>
+                        <p><strong>Bewaartermijn & Delen:</strong> Gegevens worden niet langer bewaard dan strikt noodzakelijk voor de uitvoering van commerciële overeenkomsten en wettelijke administratieve verplichtingen. Gegevens worden onder geen beding aan derden verstrekt voor commerciële doeleinden.</p>
+                        <p><strong>Rechten:</strong> U heeft te allen tijde het recht om uw opgeslagen persoonsgegevens in te zien, te corrigeren of te laten verwijderen. Aanvragen hiertoe kunnen worden ingediend via ons officiële e-mailadres.</p>
+                    </div>
+                </div>
+
+                <!-- Algemene Voorwaarden -->
+                <div class="border border-slate-200 rounded-xl p-6 bg-slate-50">
+                    <h3 class="text-lg font-bold text-slate-900 mb-3">2. Algemene Voorwaarden (Terms & Conditions)</h3>
+                    <div class="text-xs text-slate-600 space-y-3 leading-relaxed max-h-48 overflow-y-auto pr-2">
+                        <p><strong>Toepasselijkheid:</strong> Deze algemene voorwaarden zijn van toepassing op alle rechtsbetrekkingen, offertes en overeenkomsten waarbij GadgetLine B.V. optreedt als leverancier, sourcingspartner of adviseur van goederen en diensten.</p>
+                        <p><strong>Overeenkomsten:</strong> Overeenkomsten en opdrachten tot sourcing of levering zijn pas bindend na schriftelijke bevestiging door de directie van GadgetLine B.V.</p>
+                        <p><strong>Aansprakelijkheid:</strong> GadgetLine B.V. kwijt zich van haar taken naar beste vermogen en conform de Europese productveiligheidsnormen. De totale aansprakelijkheid van GadgetLine B.V. wegens een toerekenbare tekortkoming is beperkt tot de vergoeding van directe schade tot maximaal het factuurbedrag van de desbetreffende levering.</p>
+                        <p><strong>Toepasselijk recht:</strong> Op alle overeenkomsten tussen GadgetLine B.V. en haar opdrachtgevers is uitsluitend het Nederlands recht van toepassing. Geschillen zullen worden voorgelegd aan de bevoegde rechter in het arrondissement van onze statutaire zetel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPLIANCE FOOTER (Voor de Bank & Regus controle) -->
+    <footer class="bg-white py-12 text-sm text-slate-500">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold text-slate-900 uppercase tracking-wider text-xs mb-3">Bedrijfsinformatie</h4>
                 <p class="font-semibold text-slate-700">GadgetLine B.V.</p>
                 <p>Avenue Ceramique 221</p>
                 <p>6221 KX Maastricht</p>
                 <p>Nederland</p>
             </div>
-
-            <!-- Juridisch / Bank Check -->
             <div>
-                <h4 class="text-slate-900 font-bold mb-4 uppercase tracking-wider text-xs">Registratie</h4>
-                <p>KvK-nummer: 42075779</p>
+                <h4 class="font-bold text-slate-900 uppercase tracking-wider text-xs mb-3">Handelsregistratie</h4>
+                <p>Kamer van Koophandel (KvK): 42075779</p>
                 <p>BTW-nummer: NL869594473B01</p>
-                <p class="mt-4"><a href="mailto:management@gadgetline.nl" class="hover:text-black">management@gadgetline.nl</a></p>
             </div>
-
-            <!-- Beleid (KYC vereist deze links, ook al zijn de pagina's er nog niet) -->
             <div>
-                <h4 class="text-slate-900 font-bold mb-4 uppercase tracking-wider text-xs">Legal</h4>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-black">Algemene Voorwaarden</a></li>
-                    <li><a href="#" class="hover:text-black">Privacybeleid</a></li>
-                    <li><a href="#" class="hover:text-black">Retourbeleid</a></li>
-                    <li><a href="#" class="hover:text-black">Contact</a></li>
-                </ul>
+                <h4 class="font-bold text-slate-900 uppercase tracking-wider text-xs mb-3">Contact & Communicatie</h4>
+                <p>Voor zakelijke inquiries en compliance-gerelateerde vragen:</p>
+                <p class="mt-2 font-medium text-blue-600"><a href="mailto:management@gadgetline.nl">management@gadgetline.nl</a></p>
             </div>
-
         </div>
-        <div class="max-w-7xl mx-auto px-8 mt-12 pt-8 border-t border-slate-100 text-center text-xs">
+        <div class="max-w-6xl mx-auto px-6 mt-8 pt-6 border-t border-slate-200 text-center text-xs">
             <p>&copy; 2026 GadgetLine B.V. Alle rechten voorbehouden.</p>
         </div>
     </footer>

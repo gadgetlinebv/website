@@ -169,39 +169,43 @@
     </section>
 
     <!-- CONTACT (Met duidelijke mailadressen) -->
-    <section id="contact" class="bg-neutral-50 py-24 border-t border-neutral-200/60">
-        <div class="max-w-xl mx-auto px-6">
-            <div class="text-center mb-10">
-                <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">B2B Trade Corridor</span>
-                <h2 class="text-2xl font-bold tracking-tight text-neutral-950 mt-1">Neem Contact Op</h2>
-                <p class="text-xs text-neutral-500 mt-2">
-                    Directe vragen? Mail ons team op <a href="mailto:sales@gadgetline.nl" class="text-blue-600 hover:underline font-semibold">sales@gadgetline.nl</a> of vul het formulier in.
-                </p>
+   <section id="contact" class="bg-neutral-50 py-24 border-t border-neutral-200/60">
+    <div class="max-w-xl mx-auto px-6">
+        <div class="text-center mb-10">
+            <span class="text-[10px] font-bold tracking-[0.2em] text-neutral-400 uppercase">B2B Trade Corridor</span>
+            <h2 class="text-2xl font-bold tracking-tight text-neutral-950 mt-1">Neem Contact Op</h2>
+            <p class="text-xs text-neutral-500 mt-2">
+                Directe vragen? Mail ons team op <a href="mailto:sales@gadgetline.nl" class="text-blue-600 hover:underline font-semibold">sales@gadgetline.nl</a> of vul het formulier in.
+            </p>
+        </div>
+        
+        <form action="https://formspree.io/f/mwvdeeya" method="POST" class="space-y-5 bg-white p-8 rounded-2xl border border-neutral-200/60 shadow-sm">
+            
+            <div>
+                <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Bedrijfsnaam *</label>
+                <input type="text" name="company" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
             </div>
             
-            <form action="https://formspree.io/f/mwvdeeya" method="POST" class="space-y-5 bg-white p-8 rounded-2xl border border-neutral-200/60 shadow-sm">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Bedrijfsnaam *</label>
-                    <input type="text" name="company" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Naam *</label>
-                        <input type="text" name="name" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
-                    </div>
-                    <div>
-                        <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">E-mailadres *</label>
-                        <input type="email" name="_replyto" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
-                    </div>
+                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Naam *</label>
+                    <input type="text" name="name" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
                 </div>
                 <div>
-                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Aanvraagbericht *</label>
-                    <textarea name="message" rows="4" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition"></textarea>
+                    <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">E-mailadres *</label>
+                    <input type="email" name="_replyto" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition">
                 </div>
-                <button type="submit" class="w-full bg-neutral-950 text-white text-xs font-bold py-3.5 rounded-lg hover:bg-neutral-800 transition tracking-wider uppercase">Verzenden</button>
-            </form>
-        </div>
-    </section>
+            </div>
+
+            <div>
+                <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1">Aanvraagbericht *</label>
+                <textarea name="message" rows="4" required class="w-full border border-neutral-200 rounded-lg px-4 py-2.5 text-xs bg-neutral-50/50 focus:outline-none focus:border-neutral-950 transition"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-neutral-950 text-white text-xs font-bold py-3.5 rounded-lg hover:bg-neutral-800 transition tracking-wider uppercase">Verzenden</button>
+        </form>
+    </div>
+</section>
 
     <!-- FOOTER (Gecorrigeerd naar normale indeling "KVK & BTW") -->
     <footer class="bg-white py-16 text-xs text-neutral-400 border-t border-neutral-200/60">
